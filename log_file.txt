@@ -1,0 +1,114 @@
+2019-07-02T03:05:26.371516+00:00 app[web.1]:     at Protocol.end (/app/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+2019-07-02T03:05:26.371518+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:97:28)
+2019-07-02T03:05:26.371519+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:525:10)
+2019-07-02T03:05:26.371521+00:00 app[web.1]:     at emitNone (events.js:111:20)
+2019-07-02T03:05:26.371522+00:00 app[web.1]:     at Socket.emit (events.js:208:7)
+2019-07-02T03:05:26.371524+00:00 app[web.1]:     at endReadableNT (_stream_readable.js:1064:12)
+2019-07-02T03:05:26.371526+00:00 app[web.1]:     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+2019-07-02T03:05:26.371527+00:00 app[web.1]:     at process._tickCallback (internal/process/next_tick.js:180:9)
+2019-07-02T03:05:26.430822+00:00 heroku[web.1]: State changed from up to crashed
+2019-07-02T03:05:26.412441+00:00 heroku[web.1]: Process exited with status 1
+2019-07-02T03:06:31.003814+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=vipul-node-app.herokuapp.com request_id=798ff0ef-048f-4a93-a098-855c18a8c3e2 fwd="27.63.136.226" dyno= connect= service= status=503 bytes= protocol=https
+2019-07-02T03:07:37.947642+00:00 heroku[web.1]: State changed from crashed to starting
+2019-07-02T03:07:40.478373+00:00 heroku[web.1]: Starting process with command `node server.js`
+2019-07-02T03:07:42.571685+00:00 app[web.1]: Tue, 02 Jul 2019 03:07:42 GMT body-parser deprecated undefined extended: provide extended option at server.js:9:17
+2019-07-02T03:07:42.640068+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2019-07-02T03:07:42.640072+00:00 app[web.1]: designed for a production environment, as it will leak
+2019-07-02T03:07:42.640075+00:00 app[web.1]: memory, and will not scale past a single process.
+2019-07-02T03:07:42.738501+00:00 app[web.1]: connected as id:undefined
+2019-07-02T03:07:43.382636+00:00 heroku[web.1]: State changed from starting to up
+2019-07-02T03:08:42.372261+00:00 app[web.1]: events.js:183
+2019-07-02T03:08:42.372306+00:00 app[web.1]:       throw er; // Unhandled 'error' event
+2019-07-02T03:08:42.372309+00:00 app[web.1]:       ^
+2019-07-02T03:08:42.372311+00:00 app[web.1]: 
+2019-07-02T03:08:42.372314+00:00 app[web.1]: Error: Connection lost: The server closed the connection.
+2019-07-02T03:08:42.372316+00:00 app[web.1]:     at Protocol.end (/app/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+2019-07-02T03:08:42.372319+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:97:28)
+2019-07-02T03:08:42.372321+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:525:10)
+2019-07-02T03:08:42.372323+00:00 app[web.1]:     at emitNone (events.js:111:20)
+2019-07-02T03:08:42.372325+00:00 app[web.1]:     at Socket.emit (events.js:208:7)
+2019-07-02T03:08:42.372328+00:00 app[web.1]:     at endReadableNT (_stream_readable.js:1064:12)
+2019-07-02T03:08:42.372330+00:00 app[web.1]:     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+2019-07-02T03:08:42.372332+00:00 app[web.1]:     at process._tickCallback (internal/process/next_tick.js:180:9)
+2019-07-02T03:08:42.446797+00:00 heroku[web.1]: State changed from up to crashed
+2019-07-02T03:08:42.426124+00:00 heroku[web.1]: Process exited with status 1
+2019-07-02T03:16:05.026165+00:00 heroku[web.1]: State changed from crashed to starting
+2019-07-02T03:16:06.976963+00:00 heroku[web.1]: Starting process with command `node server.js`
+2019-07-02T03:16:08.898938+00:00 app[web.1]: Tue, 02 Jul 2019 03:16:08 GMT body-parser deprecated undefined extended: provide extended option at server.js:9:17
+2019-07-02T03:16:08.963396+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2019-07-02T03:16:08.963401+00:00 app[web.1]: designed for a production environment, as it will leak
+2019-07-02T03:16:08.963403+00:00 app[web.1]: memory, and will not scale past a single process.
+2019-07-02T03:16:09.146233+00:00 app[web.1]: connected as id:undefined
+2019-07-02T03:16:10.596060+00:00 heroku[web.1]: State changed from starting to up
+2019-07-02T03:16:25.361633+00:00 heroku[router]: at=info method=GET path="/" host=vipul-node-app.herokuapp.com request_id=4e21120f-8203-4aca-b566-9e10b5ee9b50 fwd="27.63.136.226" dyno=web.1 connect=0ms service=27ms status=200 bytes=4572 protocol=https
+2019-07-02T03:16:25.354350+00:00 app[web.1]: Home page served!!
+2019-07-02T03:16:55.720460+00:00 app[web.1]: Home page served!!
+2019-07-02T03:16:55.721372+00:00 heroku[router]: at=info method=GET path="/" host=vipul-node-app.herokuapp.com request_id=3639a91a-3161-43eb-8c77-6f85375931be fwd="27.63.136.226" dyno=web.1 connect=0ms service=8ms status=304 bytes=238 protocol=https
+2019-07-02T03:17:08.453750+00:00 heroku[web.1]: State changed from up to crashed
+2019-07-02T03:17:08.372734+00:00 app[web.1]: events.js:183
+2019-07-02T03:17:08.372751+00:00 app[web.1]:       throw er; // Unhandled 'error' event
+2019-07-02T03:17:08.372753+00:00 app[web.1]:       ^
+2019-07-02T03:17:08.372755+00:00 app[web.1]: 
+2019-07-02T03:17:08.372757+00:00 app[web.1]: Error: Connection lost: The server closed the connection.
+2019-07-02T03:17:08.372759+00:00 app[web.1]:     at Protocol.end (/app/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+2019-07-02T03:17:08.372761+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:97:28)
+2019-07-02T03:17:08.372763+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:525:10)
+2019-07-02T03:17:08.372764+00:00 app[web.1]:     at emitNone (events.js:111:20)
+2019-07-02T03:17:08.372766+00:00 app[web.1]:     at Socket.emit (events.js:208:7)
+2019-07-02T03:17:08.372767+00:00 app[web.1]:     at endReadableNT (_stream_readable.js:1064:12)
+2019-07-02T03:17:08.372769+00:00 app[web.1]:     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+2019-07-02T03:17:08.372771+00:00 app[web.1]:     at process._tickCallback (internal/process/next_tick.js:180:9)
+2019-07-02T03:17:08.432769+00:00 heroku[web.1]: Process exited with status 1
+2019-07-02T03:17:54.116992+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=vipul-node-app.herokuapp.com request_id=b8aa97e1-6d26-49cc-be48-85a6d9f3d890 fwd="27.63.136.226" dyno= connect= service= status=503 bytes= protocol=https
+2019-07-02T03:18:45.524724+00:00 heroku[web.1]: State changed from crashed to starting
+2019-07-02T03:18:47.726465+00:00 heroku[web.1]: Starting process with command `node server.js`
+2019-07-02T03:18:49.747982+00:00 app[web.1]: Tue, 02 Jul 2019 03:18:49 GMT body-parser deprecated undefined extended: provide extended option at server.js:9:17
+2019-07-02T03:18:49.839974+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2019-07-02T03:18:49.839979+00:00 app[web.1]: designed for a production environment, as it will leak
+2019-07-02T03:18:49.839980+00:00 app[web.1]: memory, and will not scale past a single process.
+2019-07-02T03:18:49.882425+00:00 app[web.1]: connected as id:undefined
+2019-07-02T03:18:50.546811+00:00 heroku[web.1]: State changed from starting to up
+2019-07-02T03:19:03.415352+00:00 heroku[router]: at=info method=GET path="/" host=vipul-node-app.herokuapp.com request_id=c2b7b377-fab9-4d84-9073-402596ba70b2 fwd="27.63.136.226" dyno=web.1 connect=0ms service=28ms status=200 bytes=4572 protocol=https
+2019-07-02T03:19:03.403669+00:00 app[web.1]: Home page served!!
+2019-07-02T03:19:49.375495+00:00 app[web.1]: events.js:183
+2019-07-02T03:19:49.375514+00:00 app[web.1]:       throw er; // Unhandled 'error' event
+2019-07-02T03:19:49.375517+00:00 app[web.1]:       ^
+2019-07-02T03:19:49.375523+00:00 app[web.1]: 
+2019-07-02T03:19:49.375526+00:00 app[web.1]: Error: Connection lost: The server closed the connection.
+2019-07-02T03:19:49.375529+00:00 app[web.1]:     at Protocol.end (/app/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+2019-07-02T03:19:49.375531+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:97:28)
+2019-07-02T03:19:49.375533+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:525:10)
+2019-07-02T03:19:49.375535+00:00 app[web.1]:     at emitNone (events.js:111:20)
+2019-07-02T03:19:49.375537+00:00 app[web.1]:     at Socket.emit (events.js:208:7)
+2019-07-02T03:19:49.375540+00:00 app[web.1]:     at endReadableNT (_stream_readable.js:1064:12)
+2019-07-02T03:19:49.375542+00:00 app[web.1]:     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+2019-07-02T03:19:49.375544+00:00 app[web.1]:     at process._tickCallback (internal/process/next_tick.js:180:9)
+2019-07-02T03:19:49.455032+00:00 heroku[web.1]: State changed from up to crashed
+2019-07-02T03:19:49.436871+00:00 heroku[web.1]: Process exited with status 1
+2019-07-02T03:25:13.137492+00:00 heroku[web.1]: State changed from crashed to starting
+2019-07-02T03:25:14.970053+00:00 heroku[web.1]: Starting process with command `node server.js`
+2019-07-02T03:25:17.161068+00:00 app[web.1]: Tue, 02 Jul 2019 03:25:17 GMT body-parser deprecated undefined extended: provide extended option at server.js:9:17
+2019-07-02T03:25:17.228641+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2019-07-02T03:25:17.228645+00:00 app[web.1]: designed for a production environment, as it will leak
+2019-07-02T03:25:17.228647+00:00 app[web.1]: memory, and will not scale past a single process.
+2019-07-02T03:25:17.283209+00:00 app[web.1]: connected as id:undefined
+2019-07-02T03:25:18.835603+00:00 heroku[web.1]: State changed from starting to up
+2019-07-02T03:25:29.134421+00:00 heroku[router]: at=info method=GET path="/" host=vipul-node-app.herokuapp.com request_id=bc2e100b-b8f9-4dae-8e6f-4d624081aea8 fwd="27.63.136.226" dyno=web.1 connect=1ms service=22ms status=304 bytes=362 protocol=https
+2019-07-02T03:25:29.126379+00:00 app[web.1]: Home page served!!
+2019-07-02T03:26:16.968198+00:00 app[web.1]: events.js:183
+2019-07-02T03:26:16.968213+00:00 app[web.1]:       throw er; // Unhandled 'error' event
+2019-07-02T03:26:16.968215+00:00 app[web.1]:       ^
+2019-07-02T03:26:16.968216+00:00 app[web.1]: 
+2019-07-02T03:26:16.968218+00:00 app[web.1]: Error: Connection lost: The server closed the connection.
+2019-07-02T03:26:16.968220+00:00 app[web.1]:     at Protocol.end (/app/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+2019-07-02T03:26:16.968222+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:97:28)
+2019-07-02T03:26:16.968224+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:525:10)
+2019-07-02T03:26:16.968225+00:00 app[web.1]:     at emitNone (events.js:111:20)
+2019-07-02T03:26:16.968227+00:00 app[web.1]:     at Socket.emit (events.js:208:7)
+2019-07-02T03:26:16.968229+00:00 app[web.1]:     at endReadableNT (_stream_readable.js:1064:12)
+2019-07-02T03:26:16.968230+00:00 app[web.1]:     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+2019-07-02T03:26:16.968232+00:00 app[web.1]:     at process._tickCallback (internal/process/next_tick.js:180:9)
+2019-07-02T03:26:17.040593+00:00 heroku[web.1]: State changed from up to crashed
+2019-07-02T03:26:17.019390+00:00 heroku[web.1]: Process exited with status 1
+Disconnected from log stream. There may be events happening that you do not see here! Attempting to reconnect...
+Connection to log stream failed. Please try again later.
